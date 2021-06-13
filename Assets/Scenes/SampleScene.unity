@@ -9568,6 +9568,109 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 197947418}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &198219454
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5309841263167463243, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: diagogueTrigger
+      value: 
+      objectReference: {fileID: 198219455}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: this is closed study area.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_Name
+      value: trigger (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9223073000742304492, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+    - {fileID: 9223073000742304495, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+--- !u!114 &198219455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+    type: 3}
+  m_PrefabInstance: {fileID: 198219454}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a273133cf784f148905dc8dda5e67a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &199373630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44062,6 +44165,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 953461565}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &953489395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+    type: 3}
+  m_PrefabInstance: {fileID: 9223073000249169602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a273133cf784f148905dc8dda5e67a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &954406212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52400,6 +52515,104 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1149384085}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1151725817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5309841263167463243, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: diagogueTrigger
+      value: 
+      objectReference: {fileID: 1151725818}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Hello There,
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: This is the open study area.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_Name
+      value: trigger (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9223073000742304492, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+    - {fileID: 9223073000742304495, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+--- !u!114 &1151725818 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+    type: 3}
+  m_PrefabInstance: {fileID: 1151725817}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a273133cf784f148905dc8dda5e67a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1151744932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75737,6 +75950,115 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1662051952}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1662278358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5309841263167463243, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: diagogueTrigger
+      value: 
+      objectReference: {fileID: 1662278359}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: This is where the library books are kept
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: you can find any book you need for your educaion here.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: if you are having trouble find what you look for please ask the reseptionist
+        they will guide you through.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_Name
+      value: trigger (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9223073000742304492, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+    - {fileID: 9223073000742304495, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+--- !u!114 &1662278359 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+    type: 3}
+  m_PrefabInstance: {fileID: 1662278358}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a273133cf784f148905dc8dda5e67a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1663768833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89314,6 +89636,104 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1969172515}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970254378
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5309841263167463243, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: diagogueTrigger
+      value: 
+      objectReference: {fileID: 1970254379}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Hi,
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: This is the reception area of the SLIIT library.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: m_Name
+      value: trigger (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9223073000742304492, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+    - {fileID: 9223073000742304495, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+--- !u!114 &1970254379 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970254378}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a273133cf784f148905dc8dda5e67a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1972068158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96828,6 +97248,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5309841263167463243, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: diagogueTrigger
+      value: 
+      objectReference: {fileID: 953489395}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
@@ -96836,7 +97261,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.019
+      value: 10.41
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -96885,33 +97310,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
-      propertyPath: dialogue.name
-      value: test 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
-        type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: this is text 1
+      value: Wellcome !
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: this is text 2
+      value: You are about to enter virtual  SLIIT library
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Happy jorney.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_Name
-      value: trigger enter
+      value: trigger
       objectReference: {fileID: 0}
-    - target: {fileID: 9223073000742304495, guid: 69758061740545c4684e1ffc5b828915,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9223073000742304492, guid: 69758061740545c4684e1ffc5b828915, type: 3}
+    - {fileID: 9223073000742304495, guid: 69758061740545c4684e1ffc5b828915, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 69758061740545c4684e1ffc5b828915, type: 3}
