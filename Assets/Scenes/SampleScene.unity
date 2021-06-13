@@ -92537,31 +92537,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialougeBox
       objectReference: {fileID: 0}
-    - target: {fileID: 3484759731617088890, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 244196569}
-    - target: {fileID: 3484759731617088890, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3484759731617088890, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DialogueManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3484759731617088890, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 4001018141115029778, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
-        type: 3}
-      propertyPath: m_Text
-      value: Press 'Space' to skip
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30, type: 3}
 --- !u!1001 &2047076003
