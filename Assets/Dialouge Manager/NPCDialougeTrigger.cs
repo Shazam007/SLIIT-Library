@@ -12,7 +12,7 @@ public class NPCDialougeTrigger : MonoBehaviour
       if(other.transform.tag == "Player"){
             diagogueTrigger.TriggerDialogue();
             Debug.Log("Player Enterd");
-            //  Destroy(this.gameObject);
+             Destroy(this.gameObject);
         }
         
     }
