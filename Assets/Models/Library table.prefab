@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1197838523999886374}
   - component: {fileID: 8614428654622012367}
   - component: {fileID: 2945347958676290514}
+  - component: {fileID: 4713048991626728723}
   m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 42bce6c82bf9a744f95e5419fda78541, type: 3}
+  - {fileID: 2100000, guid: 541910becaacdf64b86ca897f19b1593, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4713048991626728723
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3064219939113164282}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14000002, y: 0.0008000005, z: 0.014237187}
+  m_Center: {x: -0.000000014901161, y: 0.000000007450581, z: 0.000000007450581}
 --- !u!1 &4001051549303435488
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +106,7 @@ GameObject:
   - component: {fileID: 7317949363535294830}
   - component: {fileID: 3085927306231270749}
   - component: {fileID: 4082425810966156716}
+  - component: {fileID: 6138968823222221862}
   m_Layer: 0
   m_Name: Cube.005
   m_TagString: Untagged
@@ -140,7 +155,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 42bce6c82bf9a744f95e5419fda78541, type: 3}
+  - {fileID: 2100000, guid: 541910becaacdf64b86ca897f19b1593, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -162,6 +177,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6138968823222221862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4001051549303435488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000005, y: 0.02, z: 0.019999996}
+  m_Center: {x: 0.00000047683716, y: 0.0000000055879354, z: 0.0000000037252903}
 --- !u!1 &4798767533005549678
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +249,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 42bce6c82bf9a744f95e5419fda78541, type: 3}
+  - {fileID: 2100000, guid: 541910becaacdf64b86ca897f19b1593, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -254,6 +282,7 @@ GameObject:
   - component: {fileID: 2147934764969979376}
   - component: {fileID: 2680637905831380133}
   - component: {fileID: 8441404799949012057}
+  - component: {fileID: 9199427608485353651}
   m_Layer: 0
   m_Name: Cube.004
   m_TagString: Untagged
@@ -302,7 +331,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 42bce6c82bf9a744f95e5419fda78541, type: 3}
+  - {fileID: 2100000, guid: 541910becaacdf64b86ca897f19b1593, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -324,6 +353,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &9199427608485353651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5457686657393134717}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000005, y: 0.02, z: 0.019999996}
+  m_Center: {x: 0, y: -0.0000000055879354, z: 0.0000000037252903}
 --- !u!1 &5948050943237792078
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6467283951037578228}
+  - component: {fileID: 1948428768546523262}
   m_Layer: 0
   m_Name: Library table
   m_TagString: Untagged
@@ -349,7 +392,7 @@ Transform:
   m_GameObject: {fileID: 5948050943237792078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.899411, y: 1.0443063, z: -10.174243}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.14978997, y: 0.4682944, z: 0.31776774}
   m_Children:
   - {fileID: 7904326347119452305}
   - {fileID: 1197838523999886374}
@@ -359,6 +402,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1948428768546523262
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948050943237792078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &6180823854992240251
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,6 +427,7 @@ GameObject:
   - component: {fileID: 7904326347119452305}
   - component: {fileID: 1462719349911295503}
   - component: {fileID: 7010576935429458640}
+  - component: {fileID: 4904178552571329577}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -418,7 +476,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 670224309865224971, guid: 42bce6c82bf9a744f95e5419fda78541, type: 3}
+  - {fileID: 2100000, guid: 636e26ae67dadf94cb97d42d998d6d10, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -440,3 +498,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4904178552571329577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6180823854992240251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.14000002, y: 0.036610756, z: 0.0014734489}
+  m_Center: {x: -0.000000014901161, y: 0.000000007450581, z: 0.0000000037252903}
