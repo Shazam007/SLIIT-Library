@@ -1595,7 +1595,7 @@ Transform:
   - {fileID: 1972068159}
   - {fileID: 300093091}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &32525345
 PrefabInstance:
@@ -3916,7 +3916,7 @@ Transform:
   - {fileID: 693085293}
   - {fileID: 11228201}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1001 &78018122
 PrefabInstance:
@@ -4718,7 +4718,7 @@ Transform:
   - {fileID: 314130253}
   - {fileID: 1402960053}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &101096868
 GameObject:
@@ -4771,7 +4771,7 @@ Transform:
   m_LocalScale: {x: 1.36, y: 1.66, z: 7.28}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &101467556
 PrefabInstance:
@@ -7920,7 +7920,7 @@ Transform:
   m_LocalScale: {x: 9.75, y: -2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &165668494
 PrefabInstance:
@@ -9752,7 +9752,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -9807,7 +9807,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -9817,7 +9817,8 @@ PrefabInstance:
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: 
+      value: This area is used to make it possible to users to study materials from
+        the library's collection, which are restricted to the premises.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -12452,7 +12453,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &246210889
 PrefabInstance:
@@ -17072,7 +17073,7 @@ Transform:
   - {fileID: 1953826740}
   - {fileID: 623960605}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &317350172
 PrefabInstance:
@@ -18612,7 +18613,7 @@ Transform:
   - {fileID: 1080090250}
   - {fileID: 1212362734}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &350784272
 PrefabInstance:
@@ -21478,7 +21479,7 @@ RectTransform:
   m_Children:
   - {fileID: 1518291226}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -30005,7 +30006,7 @@ Transform:
   - {fileID: 2080065663}
   - {fileID: 1022768362}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &619865052
 PrefabInstance:
@@ -45391,7 +45392,7 @@ Transform:
   - {fileID: 998038316}
   - {fileID: 942478042}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &978164073
 PrefabInstance:
@@ -46962,7 +46963,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021129577}
   m_LocalRotation: {x: -0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 1.31, y: 0.41907, z: -6.03}
+  m_LocalPosition: {x: 1.157, y: 0.979, z: -7.121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1936950875}
@@ -52577,7 +52578,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -52631,13 +52632,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hello There,
+      value: This is the open reading area.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: This is the open study area.
+      value: 'Students can access newsletters and other resources from here, and
+        they can use this area as a study room. '
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -60807,7 +60814,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1325431060
 PrefabInstance:
@@ -75980,7 +75987,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -76040,8 +76047,8 @@ PrefabInstance:
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: if you are having trouble find what you look for please ask the reseptionist
-        they will guide you through.
+      value: 'If you are having trouble finding what you look for, you can always
+        ask the receptionist, they will guide you through it. '
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -80633,7 +80640,7 @@ Transform:
   - {fileID: 2035022010}
   - {fileID: 183167330}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1779307425
 PrefabInstance:
@@ -80650,7 +80657,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -80710,12 +80717,14 @@ PrefabInstance:
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: This is where the library books are kept
+      value: This is the Stack Section.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: you can find any book you need for your educaion here.
+      value: This area holds a latest collection of books and periodicals, particularly
+        in the field of Information Technology, Information Systems & Management,
+        Computer Systems & Networking, and Electronic Engineering.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -88125,7 +88134,7 @@ Transform:
   - {fileID: 1042929746}
   - {fileID: 765385384}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1937186065
 PrefabInstance:
@@ -88562,7 +88571,7 @@ Transform:
   - {fileID: 2134075004}
   - {fileID: 750178739}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1947959238
 PrefabInstance:
@@ -89641,7 +89650,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -89695,13 +89704,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Hi,
+      value: This is the reception area of the SLIIT library.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: This is the reception area of the SLIIT library.
+      value: This section helps you when you want to borrow books, find the information
+        you need and they keep the library quiet.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -93759,7 +93774,7 @@ Transform:
   - {fileID: 2021641583}
   - {fileID: 326903006}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2090445271
 PrefabInstance:
@@ -96561,7 +96576,7 @@ Transform:
   - {fileID: 8940513465359784054}
   - {fileID: 8678231121070661960}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614397270350874364
 GameObject:
@@ -96638,6 +96653,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!33 &2399286539907364218
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972090740144000270}
+  m_Mesh: {fileID: -5495902117074765545, guid: 5ecb664a07ce1e9489ef3dd4101c1fa7, type: 3}
 --- !u!1 &2493819760837128626
 GameObject:
   m_ObjectHideFlags: 0
@@ -96737,6 +96760,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149574613553962967}
   m_Mesh: {fileID: 6255687079079774844, guid: 7fed7c734a0ddd348869c55f832ea82a, type: 3}
+--- !u!1 &3889960266760219688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8838948533535802886}
+  - component: {fileID: 7658711783778042030}
+  - component: {fileID: 4297800315249710875}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &3962751264206222765
 GameObject:
   m_ObjectHideFlags: 0
@@ -96755,6 +96796,47 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!23 &4297800315249710875
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3889960266760219688}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6478536213147159724, guid: 5ecb664a07ce1e9489ef3dd4101c1fa7, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &4413576659487927228
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -96816,7 +96898,7 @@ PrefabInstance:
     - target: {fileID: 6513551503085503538, guid: 25e1f83fcee4b55479a46d2c746f42bb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6513551503085503538, guid: 25e1f83fcee4b55479a46d2c746f42bb,
         type: 3}
@@ -96870,6 +96952,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25e1f83fcee4b55479a46d2c746f42bb, type: 3}
+--- !u!23 &6074783664314624421
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972090740144000270}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -876546973899608171, guid: 5ecb664a07ce1e9489ef3dd4101c1fa7, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &6376282695104848284
 Transform:
   m_ObjectHideFlags: 0
@@ -96882,6 +97005,20 @@ Transform:
   m_LocalScale: {x: 0.12533568, y: 0.125, z: 2.0112658}
   m_Children: []
   m_Father: {fileID: 273901143074774086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &6392485793357661156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972090740144000270}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6454805, y: 0.6454805, z: 0.5274758}
+  m_Children: []
+  m_Father: {fileID: 7838248416238737537}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6468408945405503868
@@ -96898,6 +97035,24 @@ Transform:
   m_Father: {fileID: 273901143074774086}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6972090740144000270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6392485793357661156}
+  - component: {fileID: 2399286539907364218}
+  - component: {fileID: 6074783664314624421}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &7217002119391672709
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -96980,6 +97135,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7461582547762135611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7838248416238737537}
+  m_Layer: 0
+  m_Name: SliitLogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!23 &7472656387946270066
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -97062,6 +97233,30 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &7658711783778042030
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3889960266760219688}
+  m_Mesh: {fileID: 6686097678407549244, guid: 5ecb664a07ce1e9489ef3dd4101c1fa7, type: 3}
+--- !u!4 &7838248416238737537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7461582547762135611}
+  m_LocalRotation: {x: 0.51378375, y: 0.49615455, z: -0.5034644, w: 0.4861898}
+  m_LocalPosition: {x: 8.83, y: 3.1, z: 11.29}
+  m_LocalScale: {x: 0.2013096, y: 0.2013096, z: 0.2013096}
+  m_Children:
+  - {fileID: 6392485793357661156}
+  - {fileID: 8838948533535802886}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 87.687, y: 239.827, z: 149.847}
 --- !u!1 &8241836961535007390
 GameObject:
   m_ObjectHideFlags: 0
@@ -97093,6 +97288,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 273901143074774086}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &8838948533535802886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3889960266760219688}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 3.0722814, y: 0.14969903, z: 2.873131}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7838248416238737537}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8934325603362359126
 MeshFilter:
@@ -97126,7 +97335,7 @@ PrefabInstance:
     - target: {fileID: 7022346880273513566, guid: 4f6ed90a91c817045828a1cbeb1a3eb1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7022346880273513566, guid: 4f6ed90a91c817045828a1cbeb1a3eb1,
         type: 3}
@@ -97213,7 +97422,7 @@ PrefabInstance:
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724144, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -97264,6 +97473,28 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Wellcome to the SLIIT Main Library virtual tour.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: SLIIT libraries are constantly updated to accommodate resource materials
+        relating to new developments in Information and Communication Technology
+        and other subjects relating to the core teaching areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Happy jorney!
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724147, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
