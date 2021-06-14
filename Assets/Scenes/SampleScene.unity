@@ -96890,6 +96890,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5345742281733341021, guid: 25e1f83fcee4b55479a46d2c746f42bb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bc973deb49c3a1642bb8487236afc24e, type: 2}
     - target: {fileID: 5849921071740870280, guid: 25e1f83fcee4b55479a46d2c746f42bb,
         type: 3}
       propertyPath: m_Name
@@ -96899,6 +96904,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6513551503085503538, guid: 25e1f83fcee4b55479a46d2c746f42bb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 77.88097
       objectReference: {fileID: 0}
     - target: {fileID: 6513551503085503538, guid: 25e1f83fcee4b55479a46d2c746f42bb,
         type: 3}
@@ -97392,6 +97402,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: round table
       objectReference: {fileID: 0}
+    - target: {fileID: 8160328549918148401, guid: 4f6ed90a91c817045828a1cbeb1a3eb1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15918b0623a63994abd9dff6be3532a6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f6ed90a91c817045828a1cbeb1a3eb1, type: 3}
 --- !u!1 &9005089604755201211
