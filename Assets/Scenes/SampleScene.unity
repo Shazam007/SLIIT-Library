@@ -9806,6 +9806,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
+      propertyPath: dialogue.name
+      value: Study Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -12440,6 +12445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 590567026}
   dialogueText: {fileID: 1029011652}
+  dialogFont: {fileID: 12800000, guid: cf486dd2640196b4680d6e3617bc386e, type: 3}
   animator: {fileID: 1518291223}
 --- !u!4 &244196570
 Transform:
@@ -52632,6 +52638,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
+      propertyPath: dialogue.name
+      value: Open Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -76041,14 +76052,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
+      propertyPath: dialogue.name
+      value: Book Search System
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: 'If you are having trouble finding what you look for, you can always
-        ask the receptionist, they will guide you through it. '
+      value: With this computer, You can search books and look for the availability
+        of a respective book.
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -80708,6 +80724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.name
+      value: Book Shelves
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
@@ -89704,6 +89725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}
+      propertyPath: dialogue.name
+      value: Reception Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -92590,7 +92616,7 @@ PrefabInstance:
     - target: {fileID: 2522505994205585551, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 406.2857
+      value: 449.7134
       objectReference: {fileID: 0}
     - target: {fileID: 2522505994205585551, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
         type: 3}
@@ -92661,6 +92687,64 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialougeBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429987870269699357, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 87b3c56915b3cbe43834c2828238511f,
+        type: 3}
+    - target: {fileID: 3429987870269699357, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3429987870269699357, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3724102586389785054, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 87b3c56915b3cbe43834c2828238511f,
+        type: 3}
+    - target: {fileID: 3724102586389785054, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4001018141115029778, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 87b3c56915b3cbe43834c2828238511f,
+        type: 3}
+    - target: {fileID: 4134814311504013686, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 122.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134814311504013686, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -52.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5318594150034588088, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688213904348459133, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 268.9421
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688213904348459133, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d0ad203f4f5a0b4ab98f7cfaad5bb30, type: 3}
@@ -97488,6 +97572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
+        type: 3}
+      propertyPath: dialogue.name
+      value: SLIIT Library Entrance
       objectReference: {fileID: 0}
     - target: {fileID: 9223073000386724145, guid: 69758061740545c4684e1ffc5b828915,
         type: 3}

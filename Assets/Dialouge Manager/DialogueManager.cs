@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     // public Image charactorImage;
+    public Font dialogFont; //change font of the text
 
     public Animator animator;
 
@@ -19,23 +20,28 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
 
-        sentences =  new Queue<string>();
-        
+        sentences = new Queue<string>();
+        nameText.font = dialogFont;
+        dialogueText.font = dialogFont;
+
     }
 
-    private void Update() {
-        if(Input.GetButtonDown("Jump")){
+    private void Update()
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
             DisplayNextSentence();
         }
     }
 
-    
 
-    public void StartDialogue( Dialogue dialogue){
+
+    public void StartDialogue(Dialogue dialogue)
+    {
 
         // Debug.Log("Conversation Start" + dialogue.name);
 
-        animator.SetBool("IsOpen",true);
+        animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         // charactorImage.sprite = dialogue.sprite;
 
@@ -50,14 +56,16 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void DisplayNextSentence(){
+    public void DisplayNextSentence()
+    {
 
-        if(sentences.Count == 0){
+        if (sentences.Count == 0)
+        {
             EndDialogue();
             return;
         }
 
-        string sentence =  sentences.Dequeue();
+        string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
         // dialogueText.text = sentence;
@@ -65,18 +73,20 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    IEnumerator TypeSentence (string sentence){
-            dialogueText.text = "";
-            foreach (char letter in sentence.ToCharArray())
-            {
-                dialogueText.text += letter;
-                yield return null;
-            }
+    IEnumerator TypeSentence(string sentence)
+    {
+        dialogueText.text = "";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return null;
+        }
     }
 
-    void EndDialogue(){
+    void EndDialogue()
+    {
         // Debug.Log("End of Conversation");
-        animator.SetBool("IsOpen",false);
+        animator.SetBool("IsOpen", false);
     }
 
 }
