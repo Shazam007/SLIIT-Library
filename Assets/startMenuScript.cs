@@ -10,4 +10,14 @@ public class startMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void EndApp()
+    {
+        Application.Quit();
+    }
+
+    public void replayApp()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
 }
