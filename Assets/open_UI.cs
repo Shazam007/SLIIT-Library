@@ -27,6 +27,6 @@ public class open_UI : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        // UIpanel.SetActive(false);
+        UIpanel.SetActive(false);
     }
 }

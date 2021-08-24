@@ -27,7 +27,7 @@ public class PlayerMovements : MonoBehaviour
     }
 
     private bool IsMouseOverUI(){
-            Debug.Log("Overthe UI");
+            // Debug.Log("Overthe UI");
           return  EventSystem.current.IsPointerOverGameObject();
         
     }

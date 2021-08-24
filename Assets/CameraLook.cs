@@ -35,7 +35,7 @@ public class CameraLook : MonoBehaviour
 
 
     private bool IsMouseOverUI(){
-            Debug.Log("OvertheUI");
+            // Debug.Log("OvertheUI");
           return  EventSystem.current.IsPointerOverGameObject();
           
     }
