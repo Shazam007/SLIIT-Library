@@ -29,6 +29,22 @@ public class Booklist : MonoBehaviour
     // Start is called before the first frame update
 
 
+    public Image lcationpoint;
+    public GameObject point;
+
+    public GameObject catagory01;
+    public GameObject catagory02;
+    public GameObject catagory03;
+    public GameObject catagory04;
+    public GameObject catagory05;
+    public GameObject catagory06;
+    public GameObject catagory07;
+    public GameObject catagory08;
+    public GameObject catagory09;
+    public GameObject catagory10;
+    public GameObject catagory11;
+    public GameObject catagory12;
+ 
     [Serializable]
     public struct Book{
         public string Name;
@@ -36,8 +52,6 @@ public class Booklist : MonoBehaviour
         public string Availability;
         public Sprite Cover;
         public string category;
-        public float X;
-        public float Y;
 
     }
 
@@ -76,7 +90,7 @@ public class Booklist : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     void UnlockMouse(){
@@ -88,7 +102,49 @@ public class Booklist : MonoBehaviour
 	{
 		Debug.Log ("------------item " + itemIndex + " clicked---------------");
 		Debug.Log ("name " + allBooks[itemIndex].Name);
-		Debug.Log ("shelf location : " + allBooks[itemIndex].X + "," + allBooks[itemIndex].Y);
+
+
+        catagory01.SetActive(false);
+        catagory02.SetActive(false);
+        catagory03.SetActive(false);
+        catagory04.SetActive(false);
+        catagory05.SetActive(false);
+        catagory06.SetActive(false);
+        catagory07.SetActive(false);
+        catagory08.SetActive(false);
+        catagory09.SetActive(false);
+        catagory10.SetActive(false);
+        catagory11.SetActive(false);
+        catagory12.SetActive(false);
+
+
+        if(allBooks[itemIndex].category == "01"){
+                catagory01.SetActive(true);
+        }else if(allBooks[itemIndex].category == "01"){
+                 catagory02.SetActive(true);
+        }else if(allBooks[itemIndex].category == "02"){
+                 catagory03.SetActive(true);
+        }else if(allBooks[itemIndex].category == "03"){
+             catagory04.SetActive(true);
+        }else if(allBooks[itemIndex].category == "04"){
+             catagory05.SetActive(true);
+        }else if(allBooks[itemIndex].category == "05"){
+             catagory06.SetActive(true);
+        }else if(allBooks[itemIndex].category == "06"){
+             catagory07.SetActive(true);
+        }else if(allBooks[itemIndex].category == "07"){
+             catagory08.SetActive(true);
+        }else if(allBooks[itemIndex].category == "08"){
+             catagory09.SetActive(true);
+        }else if(allBooks[itemIndex].category == "09"){
+             catagory10.SetActive(true);
+        }else if(allBooks[itemIndex].category == "10"){
+             catagory11.SetActive(true);
+        }else if(allBooks[itemIndex].category == "11"){
+             catagory12.SetActive(true);
+        }
+        
+       
 	}
 
 
