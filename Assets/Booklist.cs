@@ -28,7 +28,7 @@ public class Booklist : MonoBehaviour
 {
     // Start is called before the first frame update
 
-
+    public bookdetails details;
     public Image lcationpoint;
     public GameObject point;
 
@@ -52,6 +52,7 @@ public class Booklist : MonoBehaviour
         public string Availability;
         public Sprite Cover;
         public string category;
+        public string Description;
 
     }
 
@@ -102,6 +103,7 @@ public class Booklist : MonoBehaviour
 	{
 		Debug.Log ("------------item " + itemIndex + " clicked---------------");
 		Debug.Log ("name " + allBooks[itemIndex].Name);
+        Debug.Log ("name " + );
 
 
         catagory01.SetActive(false);
@@ -120,28 +122,40 @@ public class Booklist : MonoBehaviour
 
         if(allBooks[itemIndex].category == "01"){
                 catagory01.SetActive(true);
+                details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "01"){
                  catagory02.SetActive(true);
+                    details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "02"){
                  catagory03.SetActive(true);
+                    details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "03"){
              catagory04.SetActive(true);
+                 details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "04"){
              catagory05.SetActive(true);
+              details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "05"){
              catagory06.SetActive(true);
+              details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "06"){
              catagory07.SetActive(true);
+               details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "07"){
              catagory08.SetActive(true);
+              details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "08"){
              catagory09.SetActive(true);
+            details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "09"){
              catagory10.SetActive(true);
+             details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "10"){
              catagory11.SetActive(true);
+            details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "11"){
              catagory12.SetActive(true);
+            details.MyMethod(allBooks[itemIndex].Description);
         }
         
        
