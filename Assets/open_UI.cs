@@ -22,7 +22,7 @@ public class open_UI : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         UIpanel.SetActive(true);
-        Debug.Log("Enter");
+        // Debug.Log("Enter");
     }
 
     void OnTriggerExit(Collider other)

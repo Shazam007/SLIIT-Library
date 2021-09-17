@@ -18,7 +18,7 @@ public class Search_active : MonoBehaviour
     {
 
         if(EnterUI.activeSelf == true){
-            Debug.Log("TRUE");
+            // Debug.Log("TRUE");
         if (Input.GetKeyDown(KeyCode.Space))
         {
             EnterUI.SetActive(false);

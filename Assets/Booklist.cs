@@ -103,7 +103,7 @@ public class Booklist : MonoBehaviour
 	{
 		Debug.Log ("------------item " + itemIndex + " clicked---------------");
 		Debug.Log ("name " + allBooks[itemIndex].Name);
-        Debug.Log ("name " + );
+        
 
 
         catagory01.SetActive(false);
@@ -123,9 +123,6 @@ public class Booklist : MonoBehaviour
         if(allBooks[itemIndex].category == "01"){
                 catagory01.SetActive(true);
                 details.MyMethod(allBooks[itemIndex].Description);
-        }else if(allBooks[itemIndex].category == "01"){
-                 catagory02.SetActive(true);
-                    details.MyMethod(allBooks[itemIndex].Description);
         }else if(allBooks[itemIndex].category == "02"){
                  catagory03.SetActive(true);
                     details.MyMethod(allBooks[itemIndex].Description);
