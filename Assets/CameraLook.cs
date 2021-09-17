@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
+
 public class CameraLook : MonoBehaviour
 {
 
@@ -17,7 +17,6 @@ public class CameraLook : MonoBehaviour
     
     void Update()
     {
-        if(!IsMouseOverUI()){
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y")  * mouseSensitivity * Time.deltaTime;
 
@@ -27,16 +26,9 @@ public class CameraLook : MonoBehaviour
         transform.localRotation = Quaternion.Euler(XRotaion, 0f ,0f);
 
         playerBody.Rotate(Vector3.up * mouseX);
-        }
+    
 
 
         
-    }
-
-
-    private bool IsMouseOverUI(){
-            // Debug.Log("OvertheUI");
-          return  EventSystem.current.IsPointerOverGameObject();
-          
     }
 }

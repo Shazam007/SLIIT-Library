@@ -8,18 +8,12 @@ public class PauseScript : MonoBehaviour
     public static bool isGamePaused = false;
 
     [SerializeField] private GameObject pauseMenu;
-    [SerializeField] private GameObject ComputerUI;
-    [SerializeField] private GameObject EnterUI;
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
 
-            ComputerUI.SetActive(false);
-            EnterUI.SetActive(false);
-
-            
             if (isGamePaused)
             {
                 //resume
