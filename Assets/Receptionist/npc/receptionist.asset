@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257ca4a339b55ca48b9ff2c1dec83799, type: 3}
+  m_Name: receptionist
+  m_EditorClassIdentifier: 
+  npcName: Mr. Jesica
+  dialogue:
+  - Hello, Welcome to library
+  - How can I help you today?
+  - You need to first register with the library. Registered members have access to
+    core text books, reference books, general reading materials, CDs and DVDs.
+  - You can fill the library registration form here or online form in the sliit library
+    website.
+  - After 2019, SLIIT registered students are eligible for library membership without
+    placing any security deposit.
+  - You can use book search PC to find books, book details, available Number of Copies
+    for in-house reference and Number of Copies for lending.
+  - 'library members are allowed to borrow one book for a period of 7 days only.
+    If demand is high, the peroid will be reduced to overnight.
+
+'
+  - If a book is overdue a fine of Rs. 115/- per day per book will be charged. Absence
+    is no excuse for delay in returning a book.
+  - If a book is lost or need to be replaced, the borrower responsible should pay
+    the replacement cost of the book and any other appropriate charges as determined
+    by the SLIIT Management.
+  - "\rIn open area you can do your learning in silent enviornment. You can bring
+    your private materials such as books and papers."
+  - Only here you can refer library books. Also you can bring the laptop but no paper
+    materials allowed.
+  - Students can use laptop in both open and closed areas only for study puposes.
+    The sound should be muted while in the library.
+  - you can get One-to-one Consultation service. It is  is available every Thursday
+    from 3 to 5 pm. Patrons may ask & clear library-related questions in a language
+    they prefer, English or Sinhala.
+  - got from database the asnwer
+  playerDialogue:
+  - Hello nice to meet you.
+  - How to borrow books?
+  - How to register with the library?
+  - Do I have to deposit sequrity fee?
+  - How to find books?
+  - How many days I can keep my book?
+  - How much is the overdue fine?
+  - What happen If I lost a book?
+  - why is there an open area?
+  - why is there an closed area?
+  - Can I use my laptop here?
+  - I have more questions
+  - got from database the question
